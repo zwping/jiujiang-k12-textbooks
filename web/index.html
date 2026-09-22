@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1220" />
+    <title>九江 K12 教材库</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css?v=2" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside id="sidebar" class="sidebar" aria-label="教材筛选">
+        <div class="brand">
+          <div class="brand-mark">K12</div>
+          <div><div class="brand-title">九江教材库</div><div class="brand-subtitle">主课 · PDF · 重点笔记</div><a class="brand-link" href="../README.md" target="_blank" rel="noreferrer">打开 README 目录说明 ↗</a></div>
+          <button id="sidebarToggle" class="panel-toggle sidebar-toggle" type="button" aria-controls="sidebar" aria-expanded="true" aria-label="收起侧栏" title="收起侧栏"><span class="toggle-icon" aria-hidden="true">‹</span><span class="toggle-label">收起侧栏</span></button>
+        </div>
+        <div class="sidebar-section">
+          <label class="field-label" for="searchInput">快速搜索</label>
+          <div class="search-wrap"><span class="search-icon">⌕</span><input id="searchInput" type="search" placeholder="搜索科目、年级或教材" autocomplete="off" /><kbd>/</kbd></div>
+        </div>
+        <div class="sidebar-section filter-grid">
+          <label><span class="field-label">学段年级</span><select id="gradeFilter"></select></label>
+          <label><span class="field-label">学期</span><select id="termFilter"><option value="all">全部学期</option><option value="上学期">上学期</option><option value="下学期">下学期</option><option value="全年">全年</option></select></label>
+          <label><span class="field-label">科目</span><select id="subjectFilter"></select></label>
+          <label><span class="field-label">内容类型</span><select id="kindFilter"><option value="all">教材与笔记</option><option value="textbook">教材（PDF + 笔记）</option><option value="summary">学期汇总</option></select></label>
+          <label><span class="field-label">课程类别</span><select id="categoryFilter"></select></label>
+          <label><span class="field-label">建议学习阶段</span><select id="stageFilter"></select></label>
+        </div>
+        <div class="sidebar-section shortcut-card">
+          <div class="section-kicker">键盘操作</div>
+          <div class="shortcut-row"><kbd>j</kbd><span>下一项</span></div>
+          <div class="shortcut-row"><kbd>k</kbd><span>上一项</span></div>
+          <div class="shortcut-row"><kbd>Enter</kbd><span>打开当前项</span></div>
+          <div class="shortcut-row"><kbd>n</kbd><span>切换笔记 / PDF</span></div>
+          <div class="shortcut-row"><kbd>l</kbd><span>收起 / 展开目录</span></div>
+          <div class="shortcut-row"><kbd>?</kbd><span>完整操作指引</span></div>
+        </div>
+        <button id="helpButton" class="help-button" type="button">查看完整操作指引 <span>?</span></button>
+      </aside>
+      <main class="main-area">
+        <header id="topbar" class="topbar">
+          <div class="topbar-main"><div class="eyebrow">LOCAL READING DESK</div><h1>把教材目录变成可浏览的学习桌面</h1></div>
+          <div class="topbar-actions"><div id="countBadge" class="count-badge">读取中</div><button id="libraryRestoreButton" class="icon-button library-restore-button" type="button" aria-controls="libraryPanel" aria-expanded="false" aria-label="展开教材目录" title="展开教材目录" hidden>▤</button><button id="clearButton" class="ghost-button" type="button">清除筛选</button><button id="topbarToggle" class="ghost-button panel-toggle topbar-toggle" type="button" aria-controls="topbar" aria-expanded="true" title="收起顶部栏"><span class="toggle-icon" aria-hidden="true">⌃</span><span class="toggle-label">收起顶部栏</span></button></div>
+        </header>
+        <section id="contentGrid" class="content-grid">
+          <div id="libraryPanel" class="library-panel">
+          <div class="panel-heading"><div><div class="section-kicker">教材清单</div><h2 id="listTitle">全部内容</h2></div><div class="panel-heading-actions"><div id="selectionHint" class="selection-hint">使用 j / k · l 关闭/展开目录 · 点击图标/年级/阶段/学期可折叠</div><button id="libraryToggle" class="icon-button library-toggle" type="button" aria-controls="libraryList" aria-expanded="true" aria-label="收起教材清单" title="收起教材清单"><span class="toggle-icon" aria-hidden="true">⌃</span></button></div></div>
+            <div id="libraryList" class="library-list" role="listbox" aria-label="教材列表"></div>
+            <div id="emptyState" class="empty-state" hidden><div class="empty-icon">∅</div><h3>没有匹配内容</h3><p>试试清除筛选，或换一个搜索词。</p></div>
+          </div>
+          <section class="reader-panel" aria-label="文档阅读区">
+            <div id="readerEmpty" class="reader-empty"><div class="reader-icon">▤</div><div class="section-kicker">阅读区</div><h2>选择一本教材开始</h2><p>左侧选中教材后，可以在重点笔记和原版 PDF 之间切换。</p><button id="readerHelpButton" class="primary-button" type="button">查看操作指引</button></div>
+            <div id="reader" hidden>
+              <div class="reader-header"><div><div id="readerMeta" class="reader-meta"></div><h2 id="readerTitle"></h2></div><div class="reader-actions"><button id="noteTab" class="tab-button active" type="button">重点笔记</button><button id="pdfTab" class="tab-button" type="button">PDF 教材</button><a id="openFileLink" class="ghost-button link-button" target="_blank" rel="noreferrer">新窗口打开</a></div></div>
+              <div id="noteLayout" class="note-layout" hidden><nav id="noteToc" class="note-toc" aria-label="Markdown目录"></nav><div id="noteView" class="note-view"></div></div>
+              <iframe id="pdfView" class="pdf-view" title="教材 PDF" hidden></iframe>
+            </div>
+          </section>
+        </section>
+      </main>
+    </div>
+    <dialog id="helpDialog" class="help-dialog"><button id="closeHelpButton" class="dialog-close" type="button" aria-label="关闭">×</button><div class="section-kicker">操作指引</div><h2>用键盘浏览教材</h2><p class="dialog-lead">焦点不在输入框时，以下快捷键可直接使用；教材目录可整体关闭/展开，年级、阶段和学期标题也可以分别收起或展开。</p><div class="guide-list"><div><kbd>j</kbd><span>选择下一份内容</span></div><div><kbd>k</kbd><span>选择上一份内容</span></div><div><kbd>Enter</kbd><span>打开选中内容；焦点在目录按钮上时可收起/展开</span></div><div><kbd>n</kbd><span>在重点笔记和 PDF 教材间切换</span></div><div><kbd>l</kbd><span>收起 / 展开教材目录</span></div><div><kbd>[</kbd><span>收起 / 展开侧栏</span></div><div><kbd>]</kbd><span>收起 / 展开顶部栏</span></div><div><kbd>/</kbd><span>聚焦搜索框</span></div><div><kbd>Esc</kbd><span>关闭操作指引或退出搜索焦点</span></div><div><kbd>?</kbd><span>打开本操作指引</span></div></div><div class="dialog-note">小提示：选中教材后，按 Enter 会打开重点笔记；按 n 可切换到对应 PDF。</div></dialog>
+    <script src="./catalog.js?v=58"></script>
+    <script src="./app.js?v=28"></script>
+  </body>
+</html>
