@@ -106,7 +106,7 @@
       safe = safe.replace(/`([^`\n]+)`/g, function (_, code) { return token("<code>" + code + "</code>"); });
       safe = safe.replace(/\*\*\*([^\n]+?)\*\*\*/g, "<strong><em>$1</em></strong>");
       safe = safe.replace(/\*\*([^\n]+?)\*\*/g, "<strong>$1</strong>").replace(/__([^\n]+?)__/g, "<strong>$1</strong>");
-      safe = safe.replace(/~~([^~\n]+)~~/g, "<del>$1</del>").replace(/(^|[\s(])\*([^*\n]+)\*(?=[\s).,!?，。！？]|$)/g, "$1<em>$2</em>");
+      safe = safe.replace(/~~([^~\n]+)~~/g, "<del>$1</del>").replace(/(^|[\s(（、，；：:;。！？])\*([^*\n]+)\*(?=[\s).,!?，。！？:：;；、）】》]|$)/g, "$1<em>$2</em>");
       safe = safe.replace(/ {2,}\n/g, "<br>").replace(/\n/g, "<br>");
       return safe.replace(/\u0000(\d+)\u0000/g, function (_, tokenIndex) { return tokens[Number(tokenIndex)]; });
     }
@@ -129,6 +129,7 @@
           else break;
         }
         if (!current || current.indent !== baseIndent || current.ordered !== ordered) break;
+        if (cursor !== start && /^\*\*[^*]+\*\*$/.test(current.item)) break;
         var item = current.item, task = item.match(/^\[([ xX])\]\s+(.+)$/), itemHtml = task ? '<label class="md-task"><input type="checkbox" disabled ' + (task[1].toLowerCase() === "x" ? "checked" : "") + '>' + inline(task[2]) + "</label>" : inline(item);
         cursor += 1;
         var nestedIndex = cursor;
@@ -146,6 +147,10 @@
     while (index < lines.length) {
       var line = lines[index], heading = line.match(/^\s{0,3}(#{1,6})\s+(.+?)\s*#*\s*$/);
       if (line.trim() === "") { index += 1; continue; }
+      var boldSection = line.match(/^\*\*((?:一|二|三|四|五|六|七|八|九)、[^*]+)\*\*$/);
+      var boldListHeading = line.match(/^[-*+] \*\*([^*]+)\*\*$/);
+      if (boldSection) { html += "<h2>" + inline(boldSection[1]) + "</h2>"; index += 1; continue; }
+      if (boldListHeading) { html += "<h3>" + inline(boldListHeading[1]) + "</h3>"; index += 1; continue; }
       var mathLine = line.trim(), displayMath = null, nextMathLine = index + 1;
       if (mathLine.indexOf("$$") === 0) {
         if (mathLine.length > 4 && mathLine.slice(-2) === "$$") displayMath = mathLine.slice(2, -2);
