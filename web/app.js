@@ -2,7 +2,7 @@
   "use strict";
 
   var docs = Array.isArray(window.K12_CATALOG) ? window.K12_CATALOG : [];
-  var state = { filtered: [], visible: [], selected: 0, selectedDoc: "", mode: "note", query: "", libraryCollapsed: false, collapsedGrades: Object.create(null), collapsedTerms: Object.create(null) };
+  var state = { filtered: [], visible: [], selected: 0, selectedDoc: "", mode: "note", query: "", libraryCollapsed: false, noteTocCollapsed: false, collapsedGrades: Object.create(null), collapsedTerms: Object.create(null) };
   var $ = function (id) { return document.getElementById(id); };
   var searchInput = $("searchInput"), gradeFilter = $("gradeFilter"), termFilter = $("termFilter"), subjectFilter = $("subjectFilter"), kindFilter = $("kindFilter"), categoryFilter = $("categoryFilter"), stageFilter = $("stageFilter"), contentGrid = $("contentGrid"), libraryPanel = $("libraryPanel"), libraryList = $("libraryList"), emptyState = $("emptyState"), libraryToggle = $("libraryToggle"), libraryRestoreButton = $("libraryRestoreButton"), readerEmpty = $("readerEmpty"), reader = $("reader"), noteLayout = $("noteLayout"), noteToc = $("noteToc"), noteView = $("noteView"), pdfView = $("pdfView"), noteTab = $("noteTab"), pdfTab = $("pdfTab"), openFileLink = $("openFileLink"), helpDialog = $("helpDialog"), sidebarToggle = $("sidebarToggle"), topbarToggle = $("topbarToggle");
 
@@ -15,16 +15,78 @@
       var value = line.trim();
       if (value.charAt(0) === "|") value = value.slice(1);
       if (value.charAt(value.length - 1) === "|") value = value.slice(0, -1);
-      var cells = [], cell = "", escaped = false;
+      var cells = [], cell = "", codeTicks = 0, mathDelimiter = "";
+      function slashCountBefore(source, position) {
+        var count = 0;
+        for (var slash = position - 1; slash >= 0 && source.charAt(slash) === "\\"; slash -= 1) count += 1;
+        return count;
+      }
+      function hasMathCloser(delimiter, from) {
+        for (var closeAt = from; closeAt <= value.length - delimiter.length; closeAt += 1) {
+          if (value.slice(closeAt, closeAt + delimiter.length) === delimiter && (delimiter.charAt(0) !== "$" || slashCountBefore(value, closeAt) % 2 === 0)) return true;
+        }
+        return false;
+      }
       for (var index = 0; index < value.length; index += 1) {
         var character = value.charAt(index);
-        if (character === "|" && !escaped) { cells.push(cell.trim()); cell = ""; continue; }
+        if (codeTicks > 0) {
+          if (character === "`") {
+            var codeEnd = index + 1;
+            while (value.charAt(codeEnd) === "`") codeEnd += 1;
+            var codeCount = codeEnd - index;
+            cell += value.slice(index, codeEnd);
+            if (codeCount === codeTicks) codeTicks = 0;
+            index = codeEnd - 1;
+          } else if (character === "\\" && value.charAt(index + 1) === "|") { cell += "\uE000"; index += 1; }
+          else cell += character;
+          continue;
+        }
+        if (mathDelimiter) {
+          if (value.slice(index, index + mathDelimiter.length) === mathDelimiter) {
+            cell += mathDelimiter;
+            index += mathDelimiter.length - 1;
+            mathDelimiter = "";
+          } else cell += character;
+          continue;
+        }
+        if (character === "`") {
+          var tickEnd = index + 1;
+          while (value.charAt(tickEnd) === "`") tickEnd += 1;
+          var tickCount = tickEnd - index;
+          cell += value.slice(index, tickEnd);
+          codeTicks = tickCount;
+          index = tickEnd - 1;
+          continue;
+        }
+        if (character === "\\" && (value.charAt(index + 1) === "(" || value.charAt(index + 1) === "[")) {
+          var escapedMathEnd = value.charAt(index + 1) === "(" ? "\\)" : "\\]";
+          if (hasMathCloser(escapedMathEnd, index + 2)) {
+            mathDelimiter = escapedMathEnd;
+            cell += value.slice(index, index + 2);
+            index += 1;
+            continue;
+          }
+        }
+        if (character === "$" && slashCountBefore(value, index) % 2 === 0) {
+          var mathLength = value.charAt(index + 1) === "$" ? 2 : 1;
+          var dollarDelimiter = mathLength === 2 ? "$$" : "$";
+          if (hasMathCloser(dollarDelimiter, index + mathLength)) {
+            mathDelimiter = mathLength === 2 ? "$$" : "$";
+            cell += mathDelimiter;
+            index += mathLength - 1;
+            continue;
+          }
+        }
+        if (character === "|" && !mathDelimiter) {
+          var slashCount = 0;
+          for (var slashIndex = cell.length - 1; slashIndex >= 0 && cell.charAt(slashIndex) === "\\"; slashIndex -= 1) slashCount += 1;
+          if (slashCount % 2 === 1) { cell = cell.slice(0, -1) + "\uE000"; continue; }
+          cells.push(cell.trim()); cell = ""; continue;
+        }
         cell += character;
-        escaped = character === "\\" && !escaped;
-        if (character !== "\\") escaped = false;
       }
       cells.push(cell.trim());
-      return cells.map(function (item) { return item.replace(/\\\|/g, "|"); });
+      return cells.map(function (item) { return item.replace(/\uE000/g, "|"); });
     }
     function isTableDelimiter(line) {
       var cells = splitTableRow(line);
@@ -59,12 +121,21 @@
       var baseIndent = first.indent, ordered = first.ordered, tag = ordered ? "ol" : "ul", output = "<" + tag + ">", cursor = start;
       while (cursor < lines.length) {
         var current = parseListItem(lines[cursor]);
+        if (!current && lines[cursor].trim() === "") {
+          var siblingIndex = cursor;
+          while (siblingIndex < lines.length && lines[siblingIndex].trim() === "") siblingIndex += 1;
+          var sibling = siblingIndex < lines.length ? parseListItem(lines[siblingIndex]) : null;
+          if (sibling && sibling.indent === baseIndent && sibling.ordered === ordered) { cursor = siblingIndex; current = sibling; }
+          else break;
+        }
         if (!current || current.indent !== baseIndent || current.ordered !== ordered) break;
         var item = current.item, task = item.match(/^\[([ xX])\]\s+(.+)$/), itemHtml = task ? '<label class="md-task"><input type="checkbox" disabled ' + (task[1].toLowerCase() === "x" ? "checked" : "") + '>' + inline(task[2]) + "</label>" : inline(item);
         cursor += 1;
-        var nested = cursor < lines.length ? parseListItem(lines[cursor]) : null;
+        var nestedIndex = cursor;
+        while (nestedIndex < lines.length && lines[nestedIndex].trim() === "") nestedIndex += 1;
+        var nested = nestedIndex < lines.length ? parseListItem(lines[nestedIndex]) : null;
         if (nested && nested.indent > baseIndent) {
-          var child = renderList(cursor);
+          var child = renderList(nestedIndex);
           itemHtml += child.html;
           cursor = child.next;
         }
@@ -75,6 +146,16 @@
     while (index < lines.length) {
       var line = lines[index], heading = line.match(/^\s{0,3}(#{1,6})\s+(.+?)\s*#*\s*$/);
       if (line.trim() === "") { index += 1; continue; }
+      var mathLine = line.trim(), displayMath = null, nextMathLine = index + 1;
+      if (mathLine.indexOf("$$") === 0) {
+        if (mathLine.length > 4 && mathLine.slice(-2) === "$$") displayMath = mathLine.slice(2, -2);
+        else if (mathLine === "$$") {
+          var mathLines = [], mathCursor = index + 1;
+          while (mathCursor < lines.length && lines[mathCursor].trim() !== "$$") { mathLines.push(lines[mathCursor]); mathCursor += 1; }
+          if (mathCursor < lines.length) { displayMath = mathLines.join("\n"); nextMathLine = mathCursor + 1; }
+        }
+        if (displayMath !== null) { html += '<div class="md-math-block">\\[' + escapeHtml(displayMath) + "\\]</div>"; index = nextMathLine; continue; }
+      }
       if (heading) { var level = heading[1].length; html += "<h" + level + ">" + inline(heading[2]) + "</h" + level + ">"; index += 1; continue; }
       if (/^\s{0,3}(```+|~~~+)/.test(line)) {
         var fence = line.match(/^\s{0,3}(```+|~~~+)\s*([^ ]*)/), code = [], marker = fence[1].charAt(0); index += 1;
@@ -99,11 +180,25 @@
     }
     return html;
   }
+  var mathTypesetQueue = Promise.resolve();
+  function typesetMath() {
+    var math = window.MathJax;
+    if (!math || typeof math.typesetPromise !== "function") return;
+    var ready = math.startup && math.startup.promise ? math.startup.promise : Promise.resolve();
+    mathTypesetQueue = mathTypesetQueue.catch(function () {}).then(function () { return ready; }).then(function () { if (math.typesetClear) math.typesetClear([noteView]); return math.typesetPromise([noteView]); }).catch(function (error) { console.error("LaTeX 公式渲染失败", error); });
+  }
+  if (window.MutationObserver) {
+    var noteMathObserver = new MutationObserver(function (records) {
+      if (records.some(function (record) { return record.target === noteView; })) typesetMath();
+    });
+    noteMathObserver.observe(noteView, { childList: true });
+  }
+  window.addEventListener("load", typesetMath);
   function buildNoteToc() {
     var headings = Array.prototype.slice.call(noteView.querySelectorAll("h1, h2, h3, h4, h5, h6"));
     if (!headings.length) { noteToc.hidden = true; noteToc.innerHTML = ""; return; }
     noteToc.hidden = false;
-    var html = '<div class="note-toc-title">本文目录</div><div class="note-toc-list">';
+    var html = '<div class="note-toc-heading"><div class="note-toc-title">本文目录</div><button class="note-toc-toggle" type="button" aria-controls="noteTocList" aria-expanded="' + String(!state.noteTocCollapsed) + '" aria-label="' + (state.noteTocCollapsed ? '展开笔记目录' : '收起笔记目录') + '" title="' + (state.noteTocCollapsed ? '展开笔记目录' : '收起笔记目录') + '">' + (state.noteTocCollapsed ? '›' : '‹') + '</button></div><div id="noteTocList" class="note-toc-list"' + (state.noteTocCollapsed ? ' hidden' : '') + '>';
     headings.forEach(function (heading, index) {
       var id = "md-heading-" + (index + 1);
       heading.id = id;
@@ -111,6 +206,18 @@
       html += '<button class="note-toc-item level-' + level + '" type="button" data-target="' + id + '">' + escapeHtml(heading.textContent) + "</button>";
     });
     noteToc.innerHTML = html + "</div>";
+    noteLayout.classList.toggle("toc-collapsed", state.noteTocCollapsed);
+    var tocToggle = noteToc.querySelector(".note-toc-toggle");
+    tocToggle.addEventListener("click", function () {
+      state.noteTocCollapsed = !state.noteTocCollapsed;
+      noteLayout.classList.toggle("toc-collapsed", state.noteTocCollapsed);
+      var collapsed = state.noteTocCollapsed;
+      tocToggle.setAttribute("aria-expanded", String(!collapsed));
+      tocToggle.setAttribute("aria-label", collapsed ? "展开笔记目录" : "收起笔记目录");
+      tocToggle.title = collapsed ? "展开笔记目录" : "收起笔记目录";
+      tocToggle.textContent = collapsed ? "›" : "‹";
+      noteToc.querySelector(".note-toc-list").hidden = collapsed;
+    });
     Array.prototype.forEach.call(noteToc.querySelectorAll(".note-toc-item"), function (button) {
       button.addEventListener("click", function () {
         var target = document.getElementById(button.dataset.target);

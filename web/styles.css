@@ -47,3 +47,17 @@
 .note-view ul,.note-view ol{margin:4px 0 10px}
 .note-view li{margin:2px 0;line-height:1.55}
 .note-view blockquote{margin:10px 0;padding:8px 14px}
+.note-view .md-math-block{overflow-x:auto;max-width:100%;margin:16px 0;padding:4px 8px;text-align:center}
+.note-view mjx-container{max-width:100%}
+.note-view mjx-container[display="true"]{overflow-x:auto;overflow-y:hidden;margin:12px 0}
+
+/* Markdown 笔记目录可折叠，收起后把空间还给正文。 */
+.note-toc{transition:width .18s ease,padding .18s ease}
+.note-toc-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 6px 14px;padding-bottom:12px;border-bottom:2px solid #cfd4d7}
+.note-toc-title{margin:0;padding:0;border:0}
+.note-toc-toggle{display:grid;place-items:center;width:28px;height:28px;flex:none;border:1px solid #c8cdd0;color:#37576e;background:transparent;font-size:22px;line-height:1;cursor:pointer}
+.note-toc-toggle:hover{border-color:#d29a4a;color:#173e59;background:#e6e2d9}
+.note-layout.toc-collapsed .note-toc{width:48px;padding:14px 8px}
+.note-layout.toc-collapsed .note-toc-heading{justify-content:center;margin:0;padding:0;border:0}
+.note-layout.toc-collapsed .note-toc-title,.note-layout.toc-collapsed .note-toc-list{display:none}
+@media(max-width:900px){.note-toc-heading{margin:0 6px 8px;padding-bottom:8px}.note-layout.toc-collapsed .note-toc{width:100%;max-height:48px;padding:10px 12px;border-right:0}.note-layout.toc-collapsed .note-toc-heading{justify-content:flex-end;margin:0;padding:0}}
