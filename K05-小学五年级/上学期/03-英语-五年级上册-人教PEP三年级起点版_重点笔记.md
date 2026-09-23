@@ -75,20 +75,14 @@
 
 ## 五、必备单词/术语
 
-| 词语/符号 | 释义 | 使用提醒 |
-|---|---|---|
-| subject | subject 主语 | 能说明它在本册章节中的对象、含义和使用条件。 |
-| verb | verb 动词 | 能说明它在本册章节中的对象、含义和使用条件。 |
-| tense | tense 时态 | 能说明它在本册章节中的对象、含义和使用条件。 |
-| collocation | collocation 搭配 | 能说明它在本册章节中的对象、含义和使用条件。 |
-| context | context 语境 | 能说明它在本册章节中的对象、含义和使用条件。 |
-| coherence | coherence 连贯 | 能说明它在本册章节中的对象、含义和使用条件。 |
-| Unit 5 There is a big bed关键词 | there is/are 有、bed 床、nature park 自然公园、under 在……下面 | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 1 What‘s he like?关键词 | personality 性格、kind 友善的、funny 有趣的、be like | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 2 My week关键词 | Thursday 星期四、often 经常、weekend 周末、on | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 3 What would you like?关键词 | would like 想要、sandwich 三明治、drink 饮料、some 一些 | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 4 What can you do?关键词 | can 能、draw 画、swim 游泳、cartoon 漫画 | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 6 In a nature park关键词 | there is/are 有、bed 床、nature park 自然公园、under 在……下面 | 与该章节的知识结论一起复述，不孤立背词。 |
+| 词语/符号 | 读法或词性 | 中文释义 | 使用提醒与例子 |
+|---|---|---|---|
+| subject | n. 主语 | 句子中动作或状态的承担者 | 在She reads books.中，She是主语。 |
+| verb | n. 动词 | 表示动作、行为或状态的词 | read、be、have都是动词，谓语形式要与主语和时态一致。 |
+| tense | n. 时态 | 通过动词形式表示动作发生的时间和状态 | 一般现在时描述习惯，第三人称单数动词通常加-s。 |
+| collocation | n. 搭配 | 词语按照英语习惯形成的固定或常用组合 | have breakfast可以表示“吃早餐”，不能机械替换成eat breakfast以外的任意动词。 |
+| context | n. 语境 | 决定词义和表达选择的上下文环境 | subject在“school subject”中译为“科目”，在“subject of a sentence”中译为“主语”。 |
+| coherence | n. 连贯 | 句子和段落之间意思、指代和逻辑衔接一致 | 先后顺序要用then、after that等连接词表达清楚。 |
 
 ## 六、熟记内容
 
