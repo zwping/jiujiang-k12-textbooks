@@ -104,6 +104,7 @@
       safe = safe.replace(/!\[([^\]]*)\]\(\s*(?:&lt;)?([^)&]+?)(?:&gt;)?\s*\)/g, function (_, alt) { return token('<span class="md-image">图：' + alt + "</span>"); });
       safe = safe.replace(/\[([^\]]+)\]\(\s*(?:&lt;)?([^)&]+?)(?:&gt;)?\s*\)/g, function (_, label, url) { return token('<a href="' + escapeHtml(safeUrl(url)) + '" target="_blank" rel="noreferrer">' + label + "</a>"); });
       safe = safe.replace(/`([^`\n]+)`/g, function (_, code) { return token("<code>" + code + "</code>"); });
+      safe = safe.replace(/\\\[([\s\S]+?)\\\]|\\\(([\s\S]+?)\\\)|(?<!\\)\$\$([\s\S]+?)(?<!\\)\$\$|(?<!\\)\$([^$\n]+?)(?<!\\)\$/g, function (math) { return token(math); });
       safe = safe.replace(/\*\*\*([^\n]+?)\*\*\*/g, "<strong><em>$1</em></strong>");
       safe = safe.replace(/\*\*([^\n]+?)\*\*/g, "<strong>$1</strong>").replace(/__([^\n]+?)__/g, "<strong>$1</strong>");
       safe = safe.replace(/~~([^~\n]+)~~/g, "<del>$1</del>").replace(/(^|[\s(（、，；：:;。！？])\*([^*\n]+)\*(?=[\s).,!?，。！？:：;；、）】》]|$)/g, "$1<em>$2</em>");
