@@ -9,65 +9,65 @@
 
 | 章节 | 具体知识 | 学完能够做到 |
 |---|---|---|
-| Unit 5 There is a big bed | 本单元主题是“Unit 5 There is a big bed”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 1 What‘s he like? | 本单元主题是“Unit 1 What‘s he like?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 2 My week | 本单元主题是“Unit 2 My week”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 3 What would you like? | 本单元主题是“Unit 3 What would you like?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 4 What can you do? | 本单元主题是“Unit 4 What can you do?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 6 In a nature park | 本单元主题是“Unit 6 In a nature park”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
+| Unit 5 There is a big bed | 关键词：there is/are 有、bed 床、nature park 自然公园、under 在……下面；核心边界：There is用于单数或不可数名词，There are用于复数名词；存在句与物体实际位置不能混写。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 1 What‘s he like? | 关键词：personality 性格、kind 友善的、funny 有趣的、be like；核心边界：What’s he like?询问特征；What does he like?询问喜好，两个句型不能混用。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 2 My week | 关键词：Thursday 星期四、often 经常、weekend 周末、on；核心边界：星期前通常用on；does提问时后面的实义动词用原形。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 3 What would you like? | 关键词：would like 想要、sandwich 三明治、drink 饮料、some 一些；核心边界：I’d like表示“我想要”，后接名词或to do；询问吃什么和喝什么要区分eat与drink。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 4 What can you do? | 关键词：can 能、draw 画、swim 游泳、cartoon 漫画；核心边界：can后接动词原形；不能写成can to swim或can swims。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 6 In a nature park | 关键词：there is/are 有、bed 床、nature park 自然公园、under 在……下面；核心边界：There is用于单数或不可数名词，There are用于复数名词；存在句与物体实际位置不能混写。 | 能用本章关键词复述结论，并完成对应示例。 |
 
 ## 二、目录与章节重点
 
 ### Unit 5 There is a big bed
 
-- **知识结论**：本单元主题是“Unit 5 There is a big bed”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 5 There is a big bed”的核心是：围绕房间、自然公园和位置描述，掌握There is/There are表示某处存在某物，并能用in、on、under、beside等介词说明位置。
+- **方法与依据**：处理“Unit 5 There is a big bed”时，先判断名词单复数，再选择There is或There are；回答Where is/are时使用与物体位置相符的介词短语。
+- **最小示例**：在“Unit 5 There is a big bed”中，There is a big bed in the room. There are many trees in the nature park. The ball is under the chair.
+- **掌握边界**：“Unit 5 There is a big bed”必须注意：There is用于单数或不可数名词，There are用于复数名词；存在句与物体实际位置不能混写。
 
 ### Unit 1 What‘s he like?
 
-- **知识结论**：本单元主题是“Unit 1 What‘s he like?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 1 What‘s he like?”的核心是：围绕人物外貌与性格描述，掌握be动词后接形容词的表达，并区分询问外貌/性格与询问职业、爱好的句式。
+- **方法与依据**：处理“Unit 1 What‘s he like?”时，先确定谈论对象，再选择形容词和be动词；描述多人时检查主语与be动词的搭配，回答时保持问句中的对象一致。
+- **最小示例**：在“Unit 1 What‘s he like?”中，What’s he like? — He’s kind and funny. 这里like表示“像什么样”，回答用形容词，不直接回答职业。
+- **掌握边界**：“Unit 1 What‘s he like?”必须注意：What’s he like?询问特征；What does he like?询问喜好，两个句型不能混用。
 
 ### Unit 2 My week
 
-- **知识结论**：本单元主题是“Unit 2 My week”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 2 My week”的核心是：围绕一周课程与活动，掌握星期、学科和频率表达；一般现在时中第三人称主语的动词形式要与主语一致。
+- **方法与依据**：处理“Unit 2 My week”时，先确定时间和活动，再用on+星期表达时间，用do/does构成一般疑问句；频率副词通常放在实义动词前。
+- **最小示例**：在“Unit 2 My week”中，What do you have on Thursdays? — We have maths and English. I often read on the weekend.
+- **掌握边界**：“Unit 2 My week”必须注意：星期前通常用on；does提问时后面的实义动词用原形。
 
 ### Unit 3 What would you like?
 
-- **知识结论**：本单元主题是“Unit 3 What would you like?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 3 What would you like?”的核心是：围绕食物、饮料和点餐表达，掌握What would you like?及I’d like...，并区分可数名词单复数和不可数名词的使用。
+- **方法与依据**：处理“Unit 3 What would you like?”时，先确定想要的食物或饮料，再选择数量词和名词形式；礼貌请求用would like，不把would后的动词改成第三人称形式。
+- **最小示例**：在“Unit 3 What would you like?”中，What would you like to eat? — I’d like a sandwich. What would you like to drink? — Some water, please.
+- **掌握边界**：“Unit 3 What would you like?”必须注意：I’d like表示“我想要”，后接名词或to do；询问吃什么和喝什么要区分eat与drink。
 
 ### Unit 4 What can you do?
 
-- **知识结论**：本单元主题是“Unit 4 What can you do?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 4 What can you do?”的核心是：围绕能力和特长，掌握can+动词原形的肯定、否定和疑问表达；can没有人称变化，后面的动词不能加to或-ing。
+- **方法与依据**：处理“Unit 4 What can you do?”时，先确定主语能做的动作，再用Can+主语+动词原形提问，回答用Yes, ... can./No, ... can’t.
+- **最小示例**：在“Unit 4 What can you do?”中，What can you do? — I can draw cartoons. Can you swim? — Yes, I can.
+- **掌握边界**：“Unit 4 What can you do?”必须注意：can后接动词原形；不能写成can to swim或can swims。
 
 ### Unit 6 In a nature park
 
-- **知识结论**：本单元主题是“Unit 6 In a nature park”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 6 In a nature park”的核心是：围绕房间、自然公园和位置描述，掌握There is/There are表示某处存在某物，并能用in、on、under、beside等介词说明位置。
+- **方法与依据**：处理“Unit 6 In a nature park”时，先判断名词单复数，再选择There is或There are；回答Where is/are时使用与物体位置相符的介词短语。
+- **最小示例**：在“Unit 6 In a nature park”中，There is a big bed in the room. There are many trees in the nature park. The ball is under the chair.
+- **掌握边界**：“Unit 6 In a nature park”必须注意：There is用于单数或不可数名词，There are用于复数名词；存在句与物体实际位置不能混写。
 
 ## 三、必备知识点
 
-- **Unit 5 There is a big bed**：本单元主题是“Unit 5 There is a big bed”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 1 What‘s he like?**：本单元主题是“Unit 1 What‘s he like?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 2 My week**：本单元主题是“Unit 2 My week”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 3 What would you like?**：本单元主题是“Unit 3 What would you like?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 4 What can you do?**：本单元主题是“Unit 4 What can you do?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 6 In a nature park**：本单元主题是“Unit 6 In a nature park”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **Unit 5 There is a big bed**：核心对象是there is/are 有、bed 床、nature park 自然公园、under 在……下面；必须掌握的确定结论是：围绕房间、自然公园和位置描述，掌握There is/There are表示某处存在某物，并能用in、on、under、beside等介词说明位置。
+- **Unit 1 What‘s he like?**：核心对象是personality 性格、kind 友善的、funny 有趣的、be like；必须掌握的确定结论是：围绕人物外貌与性格描述，掌握be动词后接形容词的表达，并区分询问外貌/性格与询问职业、爱好的句式。
+- **Unit 2 My week**：核心对象是Thursday 星期四、often 经常、weekend 周末、on；必须掌握的确定结论是：围绕一周课程与活动，掌握星期、学科和频率表达；一般现在时中第三人称主语的动词形式要与主语一致。
+- **Unit 3 What would you like?**：核心对象是would like 想要、sandwich 三明治、drink 饮料、some 一些；必须掌握的确定结论是：围绕食物、饮料和点餐表达，掌握What would you like?及I’d like...，并区分可数名词单复数和不可数名词的使用。
+- **Unit 4 What can you do?**：核心对象是can 能、draw 画、swim 游泳、cartoon 漫画；必须掌握的确定结论是：围绕能力和特长，掌握can+动词原形的肯定、否定和疑问表达；can没有人称变化，后面的动词不能加to或-ing。
+- **Unit 6 In a nature park**：核心对象是there is/are 有、bed 床、nature park 自然公园、under 在……下面；必须掌握的确定结论是：围绕房间、自然公园和位置描述，掌握There is/There are表示某处存在某物，并能用in、on、under、beside等介词说明位置。
 
 ## 四、必备公式/定理
 
@@ -83,12 +83,12 @@
 | collocation | collocation 搭配 | 能说明它在本册章节中的对象、含义和使用条件。 |
 | context | context 语境 | 能说明它在本册章节中的对象、含义和使用条件。 |
 | coherence | coherence 连贯 | 能说明它在本册章节中的对象、含义和使用条件。 |
-| Unit 5 There is a big bed关键词 | Unit 5 There is a big bed、subject 主语、verb 动词、context 语境 | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 1 What‘s he like?关键词 | Unit 1 What‘s he like?、subject 主语、verb 动词、context 语境 | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 2 My week关键词 | Unit 2 My week、subject 主语、verb 动词、context 语境 | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 3 What would you like?关键词 | Unit 3 What would you like?、subject 主语、verb 动词、context 语境 | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 4 What can you do?关键词 | Unit 4 What can you do?、subject 主语、verb 动词、context 语境 | 与该章节的知识结论一起复述，不孤立背词。 |
-| Unit 6 In a nature park关键词 | Unit 6 In a nature park、subject 主语、verb 动词、context 语境 | 与该章节的知识结论一起复述，不孤立背词。 |
+| Unit 5 There is a big bed关键词 | there is/are 有、bed 床、nature park 自然公园、under 在……下面 | 与该章节的知识结论一起复述，不孤立背词。 |
+| Unit 1 What‘s he like?关键词 | personality 性格、kind 友善的、funny 有趣的、be like | 与该章节的知识结论一起复述，不孤立背词。 |
+| Unit 2 My week关键词 | Thursday 星期四、often 经常、weekend 周末、on | 与该章节的知识结论一起复述，不孤立背词。 |
+| Unit 3 What would you like?关键词 | would like 想要、sandwich 三明治、drink 饮料、some 一些 | 与该章节的知识结论一起复述，不孤立背词。 |
+| Unit 4 What can you do?关键词 | can 能、draw 画、swim 游泳、cartoon 漫画 | 与该章节的知识结论一起复述，不孤立背词。 |
+| Unit 6 In a nature park关键词 | there is/are 有、bed 床、nature park 自然公园、under 在……下面 | 与该章节的知识结论一起复述，不孤立背词。 |
 
 ## 六、熟记内容
 

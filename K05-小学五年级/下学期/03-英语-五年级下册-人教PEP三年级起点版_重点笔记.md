@@ -9,65 +9,65 @@
 
 | 章节 | 具体知识 | 学完能够做到 |
 |---|---|---|
-| Unit 2 My favourite season | 本单元主题是“Unit 2 My favourite season”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 4 When is the art show? | 本单元主题是“Unit 4 When is the art show?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 5 Whose dog is it? | 本单元主题是“Unit 5 Whose dog is it?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 1 My day | 本单元主题是“Unit 1 My day”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 3 My school calendar | 本单元主题是“Unit 3 My school calendar”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
-| Unit 6 Work quietly! | 本单元主题是“Unit 6 Work quietly!”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。 | 能说明对象、条件、方法和结论，并完成对应示例。 |
+| Unit 2 My favourite season | 关键词：Unit 2 My favourite season、subject 主语、verb 动词、context 语境；核心边界：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 4 When is the art show? | 关键词：Unit 4 When is the art show?、subject 主语、verb 动词、context 语境；核心边界：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 5 Whose dog is it? | 关键词：Unit 5 Whose dog is it?、subject 主语、verb 动词、context 语境；核心边界：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 1 My day | 关键词：Unit 1 My day、subject 主语、verb 动词、context 语境；核心边界：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 3 My school calendar | 关键词：Unit 3 My school calendar、subject 主语、verb 动词、context 语境；核心边界：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。 | 能用本章关键词复述结论，并完成对应示例。 |
+| Unit 6 Work quietly! | 关键词：Unit 6 Work quietly!、subject 主语、verb 动词、context 语境；核心边界：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。 | 能用本章关键词复述结论，并完成对应示例。 |
 
 ## 二、目录与章节重点
 
 ### Unit 2 My favourite season
 
-- **知识结论**：本单元主题是“Unit 2 My favourite season”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 2 My favourite season”的核心是：本单元主题是“Unit 2 My favourite season”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **方法与依据**：处理“Unit 2 My favourite season”时，阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
+- **最小示例**：在“Unit 2 My favourite season”中，基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
+- **掌握边界**：“Unit 2 My favourite season”必须注意：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
 
 ### Unit 4 When is the art show?
 
-- **知识结论**：本单元主题是“Unit 4 When is the art show?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 4 When is the art show?”的核心是：本单元主题是“Unit 4 When is the art show?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **方法与依据**：处理“Unit 4 When is the art show?”时，阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
+- **最小示例**：在“Unit 4 When is the art show?”中，基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
+- **掌握边界**：“Unit 4 When is the art show?”必须注意：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
 
 ### Unit 5 Whose dog is it?
 
-- **知识结论**：本单元主题是“Unit 5 Whose dog is it?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 5 Whose dog is it?”的核心是：本单元主题是“Unit 5 Whose dog is it?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **方法与依据**：处理“Unit 5 Whose dog is it?”时，阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
+- **最小示例**：在“Unit 5 Whose dog is it?”中，基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
+- **掌握边界**：“Unit 5 Whose dog is it?”必须注意：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
 
 ### Unit 1 My day
 
-- **知识结论**：本单元主题是“Unit 1 My day”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 1 My day”的核心是：本单元主题是“Unit 1 My day”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **方法与依据**：处理“Unit 1 My day”时，阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
+- **最小示例**：在“Unit 1 My day”中，基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
+- **掌握边界**：“Unit 1 My day”必须注意：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
 
 ### Unit 3 My school calendar
 
-- **知识结论**：本单元主题是“Unit 3 My school calendar”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 3 My school calendar”的核心是：本单元主题是“Unit 3 My school calendar”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **方法与依据**：处理“Unit 3 My school calendar”时，阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
+- **最小示例**：在“Unit 3 My school calendar”中，基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
+- **掌握边界**：“Unit 3 My school calendar”必须注意：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
 
 ### Unit 6 Work quietly!
 
-- **知识结论**：本单元主题是“Unit 6 Work quietly!”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **方法与依据**：阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
-- **最小示例**：基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
-- **掌握边界**：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
+- **知识结论**：“Unit 6 Work quietly!”的核心是：本单元主题是“Unit 6 Work quietly!”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **方法与依据**：处理“Unit 6 Work quietly!”时，阅读句子时先找主语和谓语，再判断时态、语气和代词指代；替换词汇后检查主谓一致、冠词、介词和标点。
+- **最小示例**：在“Unit 6 Work quietly!”中，基本问答可按“Do/Does + 主语 + 动词原形…? — Yes, … do/does. / No, … don’t/doesn’t.”组织。
+- **掌握边界**：“Unit 6 Work quietly!”必须注意：单词能认读不等于会使用；词义必须结合词性、搭配和上下文，不能按中文逐词硬译。
 
 ## 三、必备知识点
 
-- **Unit 2 My favourite season**：本单元主题是“Unit 2 My favourite season”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 4 When is the art show?**：本单元主题是“Unit 4 When is the art show?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 5 Whose dog is it?**：本单元主题是“Unit 5 Whose dog is it?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 1 My day**：本单元主题是“Unit 1 My day”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 3 My school calendar**：本单元主题是“Unit 3 My school calendar”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
-- **Unit 6 Work quietly!**：本单元主题是“Unit 6 Work quietly!”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **Unit 2 My favourite season**：核心对象是Unit 2 My favourite season、subject 主语、verb 动词、context 语境；必须掌握的确定结论是：本单元主题是“Unit 2 My favourite season”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **Unit 4 When is the art show?**：核心对象是Unit 4 When is the art show?、subject 主语、verb 动词、context 语境；必须掌握的确定结论是：本单元主题是“Unit 4 When is the art show?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **Unit 5 Whose dog is it?**：核心对象是Unit 5 Whose dog is it?、subject 主语、verb 动词、context 语境；必须掌握的确定结论是：本单元主题是“Unit 5 Whose dog is it?”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **Unit 1 My day**：核心对象是Unit 1 My day、subject 主语、verb 动词、context 语境；必须掌握的确定结论是：本单元主题是“Unit 1 My day”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **Unit 3 My school calendar**：核心对象是Unit 3 My school calendar、subject 主语、verb 动词、context 语境；必须掌握的确定结论是：本单元主题是“Unit 3 My school calendar”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
+- **Unit 6 Work quietly!**：核心对象是Unit 6 Work quietly!、subject 主语、verb 动词、context 语境；必须掌握的确定结论是：本单元主题是“Unit 6 Work quietly!”；围绕主题掌握核心词汇的词性、中文义项、固定搭配，以及肯定、否定、一般疑问和特殊疑问表达。
 
 ## 四、必备公式/定理
 
